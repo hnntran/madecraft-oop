@@ -23,7 +23,8 @@ public class Athlete {
 	public String toString() {
 		return "Athlete " + name + " is running at " + speed + " miles per hour at " + marathonLocation + " " + bibNumber;
 	}
-
+	
+	
 	public static int getRunnersInRace() {
 		return runnersInRace;
 	}

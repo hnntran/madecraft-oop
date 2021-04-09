@@ -3,6 +3,7 @@ package exercises;
 public class Smurf {
 
 	private String name;
+	private static String name1 = "papa";
 
 	public static Smurf createSmurf(String name) {
 		System.out.println("Creating " + name + " Smurf");
@@ -10,7 +11,9 @@ public class Smurf {
 	}
 
 	private Smurf(String name) {
-		this.name = name;
+		if (name == "papa") {
+			this.name = name;
+		}
 	}
 
 	public void printName() {
@@ -19,6 +22,10 @@ public class Smurf {
 
 	public void eat() {
 		System.out.println(name + " Smurf is eating Smurfberries.");
+	}
+	
+	String getName() {
+		return this.name;
 	}
 
 }

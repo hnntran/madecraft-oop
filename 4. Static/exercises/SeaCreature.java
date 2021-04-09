@@ -2,7 +2,7 @@ package exercises;
 
 /*
  * 1. Create a class called Ocean.
- * 2. There make make a SeaCreature called â€œSpongebobâ€. 
+ * 2. There make make a SeaCreature called “Spongebob”. 
  * 3. Use the methods below to make him eat, and laugh.
  * 4. Make Patrick and Squidward and print their name, and make them laugh.
  */

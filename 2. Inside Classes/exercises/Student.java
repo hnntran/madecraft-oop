@@ -27,11 +27,17 @@ public class Student {
 		students.add(stu1);
 		students.add(stu2);
 		
+		/*
 		Iterator<Student> it = students.iterator();
-		
 		while(it.hasNext())
 		{
 			System.out.println(it.next());
 		}
+		*/
+		
+		for (Student student : students) {
+			System.out.println(student);
+		}
+		
 	}
 }
